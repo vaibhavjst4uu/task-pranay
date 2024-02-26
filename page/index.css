@@ -1,0 +1,166 @@
+.navbar-position {
+  margin: 0 10%;
+}
+
+.search {
+  border-radius: 50%;
+  height: 40%;
+  width: 7%;
+  background: black;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Vertical Slider 100% Height */
+.vertical .carousel-item {
+  height: 70vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Vertical Slider Animation */
+.vertical .carousel-item-next.carousel-item-left,
+.vertical .carousel-item-prev.carousel-item-right {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.vertical .carousel-item-next,
+.vertical .active.carousel-item-right {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100% 0);
+}
+
+.vertical .carousel-item-prev,
+.vertical .active.carousel-item-left {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+
+/* Vertical Ccarousel Indicators on Right */
+.carousel-indicators {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 20px;
+  right: auto;
+  left: 10px;
+  width: auto;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.carousel-indicators > li {
+  display: block;
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  border: 0;
+}
+
+.carousel-indicators li.active {
+  margin-bottom: 5px;
+  background: #fff;
+}
+
+/* Vertical Carousel Controls on Right */
+.carousel.vertical .carousel-control-prev,
+.carousel.vertical .carousel-control-next {
+  left: auto;
+  right: 13.5px;
+  width: 50px;
+}
+.carousel.vertical .carousel-control-prev.up {
+  top: 0;
+  bottom: 50%;
+}
+.carousel.vertical .carousel-control-next.down {
+  top: 50%;
+  bottom: 0;
+}
+.carousel.vertical .carousel-control-prev.up i,
+.carousel.vertical .carousel-control-next.down i {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  font-size: 2em;
+}
+.carousel.vertical .carousel-control-prev.up i {
+  left: 50%;
+  margin-left: -10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.carousel.vertical .carousel-control-next.down i {
+  left: 50%;
+  margin-left: -10px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+/* Vertical Carousel Captions Size */
+.carousel-caption {
+  max-width: 100%;
+  width: 100%;
+  height: 85%;
+  left: 0;
+  text-align: start;
+  margin-left: 10%;
+}
+.lead {
+  width: 37%;
+}
+
+.text-white {
+  margin-bottom: 0;
+}
+.featured {
+  width: 100vw;
+}
+.featured-works {
+  text-align: center;
+  margin-top: 3%;
+}
+.featured-filter a {
+  margin: 2%;
+  padding: 0 1%;
+}
+
+.featured-filter a:hover {
+  background: rgb(59, 59, 216);
+  cursor: pointer;
+}
+
+.featured-grid img {
+  width: 33vw;
+}
+
+.employee-details {
+  text-align: center;
+  margin-top: 3%;
+}
+.employee-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table {
+  width: 80vw;
+}
+
+.sub-foot img{
+  height: 60vh;
+  width: 70vw;
+}
