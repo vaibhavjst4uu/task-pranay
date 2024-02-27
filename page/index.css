@@ -71,7 +71,7 @@ body {
 
 .carousel-indicators li.active {
   margin-bottom: 5px;
-  background: #fff;
+  background: rgb(49, 49, 241);
 }
 
 /* Vertical Carousel Controls on Right */
@@ -133,14 +133,16 @@ body {
   text-align: center;
   margin-top: 3%;
 }
-.featured-filter a {
+.featured-filter p {
   margin: 2%;
   padding: 0 1%;
+  text-decoration: none;
 }
 
-.featured-filter a:hover {
+.featured-filter p:hover {
   background: rgb(59, 59, 216);
   cursor: pointer;
+  color: white;
 }
 
 .featured-grid img {
@@ -160,7 +162,10 @@ body {
   width: 80vw;
 }
 
-.sub-foot img{
+.sub-foot img {
   height: 60vh;
   width: 70vw;
+}
+.footer-logo {
+  margin-left: 10%;
 }
